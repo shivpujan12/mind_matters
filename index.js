@@ -1,3 +1,4 @@
+const myInterval=setInterval('updateTimer()', 1000 );
 function updateTimer() {
     future  = Date.parse("April 28, 2023 2:00:00");
     now     = new Date();
@@ -15,9 +16,19 @@ function updateTimer() {
 
     document.getElementById("timer")
         .innerHTML =
-        '<div>' + d + '<span>days</span></div>' +
-        '<div>' + h + '<span>hours</span></div>' +
-        '<div>' + m + '<span>minutes</span></div>' +
-        '<div>' + s + '<span>seconds</span></div>' ;
+        '<div class="time">' + d + '<span>days</span></div>' +
+        '<div class="time">' + h + '<span>hours</span></div>' +
+        '<div class="time">' + m + '<span>minutes</span></div>' +
+        '<div class="time">' + s + '<span>seconds</span></div>' ;
+        d=0;h=0;m=0;s=0;
+        if(d==0 && h==0 && m==0 && s==0)
+        {
+           clearInterval(myInterval);   //to clear our interval when time is over
+           show_Instruction();    
+        }
+
 }
-setInterval('updateTimer()', 1000 );
+function show_Instruction()
+{ //jumps to instruction page
+    console.log("welcome to instructions");
+}
