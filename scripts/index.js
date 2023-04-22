@@ -30,7 +30,7 @@ function updateTimer() {
 }
 function show_Instruction(){ //jumps to instruction page
     document.querySelector('.arrow_img').addEventListener("click",function(){
-        var new_window=window.open('instruction.html','fullscreen'); //self will help to open new html file without opening new window.
+        var new_window=window.open('pages/instruction.html','fullscreen'); //self will help to open new html file without opening new window.
         new_window.resizeTo(screen.availWidth, screen.availHeight);
     });
 }
