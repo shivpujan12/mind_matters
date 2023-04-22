@@ -1,6 +1,6 @@
 const myInterval=setInterval('updateTimer()', 1000 );
 function updateTimer() {
-    future  = Date.parse("April 28, 2023 2:00:00");
+    future  = Date.parse("April 29, 2023 2:00:00");
     now     = new Date();
     diff    = future - now;
 

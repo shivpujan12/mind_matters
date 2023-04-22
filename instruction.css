@@ -1,6 +1,7 @@
 body{
     background-image: url("alexandre-debieve-FO7JIlwjOtU-unsplash.jpg");
     background-size: cover;
+    background-size: cover;
     color:black;
 }
 h1{
@@ -37,4 +38,46 @@ p{
 .task:hover{
     transform: translate(5px,5px);
     box-shadow: 0px 0px white;
+}
+.Form{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    padding:30px;
+}
+.entry{
+    height:40px;
+    width:500px;
+    border:5px solid  #282c34;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.outer_cont{
+    /* background-image: url("office-supplies_23-2148103963.jpg");
+    background-size: cover; */
+    opacity:1;
+    margin-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-sbmt{
+    display:flex;
+    justify-content: flex-end;
+}
+.submit{
+    font-family: 'DynaPuff', cursive;
+    font-size: 16px;
+}
+input{
+    font-family: 'DynaPuff', cursive;
+    padding:10px;
+    font-size: 15px;
 }
