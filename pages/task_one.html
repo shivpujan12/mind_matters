@@ -9,36 +9,30 @@
 <div class="container">
     <h1>Task 1</h1>
     <div class="clue">
-        <h2>Clue</h2>
+        <h2><img id="restore" class="restore" src="../assets/refresh.png"  alt="restore"/> Clue </h2>
+
+        <p id="clue-text">
+            Syakikg Wawwack, aa Kaciugy eksyaausai kacuakkk aao swiieacy, wkucuaacko cyk swasksc wg a skwckaeeawik swesyckk. Swaguokkko cyk "gacykk wg cyk swesyckk", yk swaskscyaiueko aao uaukacko cyk gukgc eksyaausai swesyckk ua cyk kakii 19cy skacyki. Agckk qwkmuac wa yug kkuwiycuwaaki ouggkkkask kacuak, okgucako cw auo ua aauucacuwaai saisyiacuwag, ua 1833 yk kkaiueko cyac a eysy ewkk ckakkai okguca, aa Aaaiicusai Kacuak, qag swgguwik. Cyk uasyc wg skwckaeg aao oaca qag cw wk skwuuoko cw cyk easyuak uua syasyko sakog, a ekcywo wkuac ygko ac cyk cuek cw oukksc eksyaausai iwweg gysy ag cyk Qasoyako iwwe. Gwk wycsyc, cyk easyuak qwyio yauk a skuackk, a sykuk siwcckk aao a wkii. Cyk easyuak qwyio aigw wk awik cw syasy ayewkkg wacw sakog cw wk kkao ua iackk. Cyk Kacuak uaswkswkacko aa akucyekcus iwcus yauc, swackwi giwq ua cyk gwke wg swaoucuwaai wkaasyuac aao iwwsg, aao uackckacko ekewki, eamuac uc cyk gukgc okguca gwk a ckakkai-sykswgk swesyckk cyac swyio wk okgskuwko ua ewokka ckkeg ag Cykuac-swesikck
+        </p>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            nihil repellendus similique incidunt voluptatum odit error obcaecati
-            magnam doloribus, eveniet laudantium saepe esse ratione perspiciatis
-            sapiente, voluptate, maiores cumque provident!
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            nihil repellendus similique incidunt voluptatum odit error obcaecatiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Molestiae
-            nihil repellendus similique incidunt voluptatum odit error obcaecati
-            magnam doloribus, eveniet laudantium saepe esse ratione perspiciatis
-            sapiente, voluptate, maiores cumque provident!
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            nihil repellendus similique incidunt voluptatum odit error obcaecati
+            <b>Hint for key</b>: Netflix mobile only plan amount
         </p>
     </div>
     <div class="tools">
-        <div class="tool">
+        <div id="machine1" class="tool">
             <img width="55px" height="55px" src="../assets/deciphering-dna.png" alt="pen">
-            <div>Pen</div>
+            <div>Machine 1 </div>
         </div>
-        <div class="tool">
-            <img width="55px" height="55px" src="../assets/deciphering-dna.png" alt="pencil">
-            <div>Pencil</div>
+        <div id="machine2" class="tool">
+            <img  width="55px" height="55px" src="../assets/deciphering-dna.png" alt="pencil">
+            <div>Machine 2</div>
         </div>
-        <div class="tool">
+        <div id="machine3" class="tool">
             <img width="55px" height="55px" src="../assets/deciphering-dna.png" alt="eraser">
-            <div>Eraser</div>
+            <div>Machine 3</div>
         </div>
     </div>
+    <h4>Decryption tools</h4>
     <div class="questions">
 <!--        question1-->
         <div class="question">
@@ -197,11 +191,56 @@
         </div>
     </div>
     <div type="button" class="btn" id="submit" onclick="window.location = 'task_two.html'">Submit</div>
+</div>
+
+
+<!-- Machine 1 Dialog box -->
+<div id="machine1_dialog" class="modal">
+    <div class="dialog-content">
+        <span class="close">&times;</span>
+        <h2><b>Machine 1</b></h2>
+        <p>
+            <label for="key_hint_machine1">Enter Key: </label>
+            <input type="text" id="key_hint_machine1" placeholder="Enter Key" >
+            <br><br>
+            <button type="button" class="btn"  id="submit_key_machine1">Decrypt</button>
+        </p>
+    </div>
 
 </div>
+
+<!-- Machine 2 Dialog box -->
+<div id="machine2_dialog" class="modal">
+    <div class="dialog-content">
+        <span class="close">&times;</span>
+        <h2><b>Machine 2</b></h2>
+        <p>
+            <label for="key_hint_machine2">Enter Key: </label>
+            <input type="text" id="key_hint_machine2" placeholder="Enter Key" >
+            <br><br>
+            <button type="button" class="btn"  id="submit_key_machine2">Decrypt</button>
+        </p>
+    </div>
+</div>
+
+<!-- Machine 3 Dialog box -->
+<div id="machine3_dialog" class="modal">
+    <div class="dialog-content">
+        <span class="close">&times;</span>
+        <h2><b>Machine 3</b></h2>
+        <p>
+            <label for="key_hint_machine2">Enter Key: </label>
+            <input type="text" id="key_hint_machine3" placeholder="Enter Key" >
+            <br><br>
+            <button type="button" class="btn"  id="submit_key_machine3">Decrypt</button>
+        </p>
+    </div>
+</div>
+
 <div class="credits">
     <cite>Mind Matters </cite>
     <cite>@sankalan2k23</cite>
 </div>
+<script type="text/javascript" src="../scripts/task_one.js"></script>
 </body>
 </html>
