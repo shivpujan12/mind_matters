@@ -15,5 +15,10 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3"
+  },
+  "browser":{
+    "fs":false,
+    "os":false,
+    "path":false
   }
 }

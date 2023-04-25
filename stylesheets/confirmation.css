@@ -16,3 +16,7 @@ h3{
 .proceed{
     margin-left: 10px;
 }
+.ans{
+    display: flex;
+    justify-content: center;
+}
