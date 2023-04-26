@@ -1,4 +1,12 @@
-
+.out_cont{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.clock{
+    border:2px solid;
+    padding:5px;
+    box-shadow: 5px 10px #B1CDF1;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -14,8 +22,6 @@
     padding: 20px;
     word-wrap: break-word;
 }
-
-
 
 .tools {
     margin-top:23px;
