@@ -1,12 +1,11 @@
 var h3 = document.getElementsByTagName("h3");
-var sec         = 600,
-    countDiv    = document.getElementById("timer"),
+var sec= 300*5,
+countDiv= document.getElementById("timer"),
     secpass,
     countDown   = setInterval(function () {
         'use strict';
-        
         secpass();
-    }, 1000);
+}, 1000);
 
 function secpass() {
     'use strict';
@@ -31,11 +30,10 @@ function secpass() {
         sec = sec - 1;
         
     } else {
-        
         clearInterval(countDown);
-        
         countDiv.innerHTML = 'countdown done';
-        
+        validate();
+        window.location = "../pages/task_two.html"
     }
 }
 // Get the modal

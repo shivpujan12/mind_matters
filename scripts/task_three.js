@@ -1,5 +1,8 @@
+var time = localStorage['time'];
+time = parseInt(time);
+console.log(time)
 var h3 = document.getElementsByTagName("h3");
-var sec         = 600,
+var sec         = time,
     countDiv    = document.getElementById("timer"),
     secpass,
     countDown   = setInterval(function () {
@@ -31,10 +34,8 @@ function secpass() {
         sec = sec - 1;
         
     } else {
-        
         clearInterval(countDown);
-        
         countDiv.innerHTML = 'countdown done';
-        
+        window.location = "../pages/task_three.html"
     }
 }
