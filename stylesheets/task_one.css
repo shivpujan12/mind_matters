@@ -3,10 +3,19 @@
     flex-direction: row-reverse;
 }
 .clock{
-    border:2px solid;
+    width: 10%;
     padding:5px;
-    box-shadow: 5px 10px #B1CDF1;
+    border-radius: 20px;
+    border: 2px solid #fc153a;
 }
+.count{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
