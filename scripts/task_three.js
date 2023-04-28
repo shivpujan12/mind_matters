@@ -43,3 +43,23 @@ function secpass() {
         window.location = "../pages/task_three.html"
     }
 }
+
+var instruction_dialog = document.getElementById("instruction_dialog");
+
+var instruction_btn = document.getElementById("instruction");
+
+var span1 = document.getElementsByClassName("close")[0];
+
+instruction_btn.onclick = function() {
+    instruction_dialog.style.display = "block";
+}
+
+span1.onclick = function() {
+    instruction_dialog.style.display = "none";
+}
+
+window.onclick = function(event) {
+     if (event.target === instruction_dialog) {
+        instruction_dialog.style.display = "none";
+    }
+}

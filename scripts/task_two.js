@@ -44,18 +44,37 @@ function secpass() {
         window.location = "../pages/task_three.html"
         
     }
-}var machine1_dialog = document.getElementById("machine1_dialog");
+}
+var machine1_dialog = document.getElementById("machine1_dialog");
+var instruction_dialog = document.getElementById("instruction_dialog");
+
 var machine1_btn = document.getElementById("machine1");
+var instruction_btn = document.getElementById("instruction");
+
 var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close")[1];
+
 machine1_btn.onclick = function() {
     machine1_dialog.style.display = "block";
 }
+
+instruction_btn.onclick = function() {
+    instruction_dialog.style.display = "block";
+}
+
 span.onclick = function() {
     machine1_dialog.style.display = "none";
 }
+
+span1.onclick = function() {
+    instruction_dialog.style.display = "none";
+}
+
 window.onclick = function(event) {
     if (event.target === machine1_dialog) {
         machine1_dialog.style.display = "none";
+    } else if (event.target === instruction_dialog) {
+        instruction_dialog.style.display = "none";
     }
 }
 

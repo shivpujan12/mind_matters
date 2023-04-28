@@ -19,7 +19,15 @@
     </div>
 </div>
   <div class="container">
-      <h1>Task 2</h1>
+      <h1>
+          <img
+                  id="instruction"
+                  class="restore"
+                  src="../assets/information.png"
+                  alt="restore"
+          />
+          Task 2
+      </h1>
       <div class="clues">
           <div class="clue encrypt-text">
               <h2>Clue</h2>
@@ -209,6 +217,32 @@
       </div>
 
   </div>
+
+<!-- Instruction-dialog -->
+<div id="instruction_dialog" class="modal">
+    <div class="dialog-content">
+        <span class="close">&times;</span>
+        <h2><b>Instruction</b></h2>
+        <p>
+            You need to answer the questions, evaluation scheme will be +2 for correct answer and -1 for incorrect answer and 0 for unattempted question.
+            <br><br>
+            You can directly answer the questions, or you can use the clue to answer the questions if you are unable to answer the question.
+            <br><br>
+            But the clue is encrypted, you need to decrypt it using the decryption machines provided.
+            <br><br>
+            The encrypted clue can only be broken using only one machine.
+            hint for the key is given to guess the key.
+            <br><br>
+            Be sure to try the guessed key on all the machines until you find the correct one.
+            if the text is still not decrypted then you have guessed the wrong key.
+            <br><br>
+            Guess again and think more, because mind matters for decrypting the clue.
+            <br><br>
+            Note: Don't forget to reset the clue before trying the next machine or any other key.
+
+        </p>
+    </div>
+</div>
   <div class="credits">
       <cite>Mind Matters </cite>
       <cite>@sankalan2k23</cite>
