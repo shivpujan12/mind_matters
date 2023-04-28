@@ -1,3 +1,7 @@
+var team_name = localStorage['team-name']
+document.getElementById("team-name").innerHTML =
+    "<b>Team name:</b><br> " + team_name;
+
 var time = localStorage['time'];
 time = parseInt(time);
 console.log(time)

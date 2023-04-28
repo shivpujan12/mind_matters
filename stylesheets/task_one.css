@@ -2,19 +2,17 @@
     display:flex;
     flex-direction: row-reverse;
 }
+.details{
+    display:flex;
+    flex-direction: row;
+}
 .clock{
     width: 10%;
     padding:5px;
     border-radius: 20px;
     border: 2px solid #fc153a;
 }
-.count{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-}
+
 
 .container{
     display: flex;
@@ -162,3 +160,24 @@
     border: 1px solid #888;
     border-radius: 50%;
 }
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    padding:8px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer {
+    border-radius: 10px;
+    border: 2px solid indianred;
+    padding: 5px 10px;
+}
+ .team-name {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 10px;
+ }

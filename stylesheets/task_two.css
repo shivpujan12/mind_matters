@@ -186,3 +186,24 @@
     padding:8px;
     align-items: center;
 }
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    padding:8px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer {
+    border-radius: 10px;
+    border: 2px solid indianred;
+    padding: 5px 10px;
+}
+.team-name {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 10px;
+}

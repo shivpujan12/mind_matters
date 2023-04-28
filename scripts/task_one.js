@@ -1,4 +1,7 @@
-var h3 = document.getElementsByTagName("h3");
+var team_name = localStorage['team-name']
+document.getElementById("team-name").innerHTML =
+    "<b>Team name:</b><br> " + team_name;
+
 var sec= 300*5,
 countDiv= document.getElementById("timer"),
     secpass,
