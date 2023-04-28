@@ -23,11 +23,27 @@
     min-height: 85vh;
 }
 
+.clues{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
 .clue {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 70%;
+    width: 55%;
+    margin: 12px;
+}
+
+.clue .restore {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #888;
+    border-radius: 50%;
 }
 
 .clue video {
@@ -39,6 +55,25 @@
 .clue div{
     align-self: center;
     justify-content: center;
+}
+
+.clue a{
+    align-self: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 20%;
+}
+
+.encrypt-text {
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 20px;
+    word-wrap: break-word;
 }
 
 .btn {
