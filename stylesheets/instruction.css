@@ -65,12 +65,14 @@ input{
 
 .instruction{
 display:flex;
-    justify-content: center;
+    margin-left: 120px;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
     color: white;
-    border: 5px solid white;
+    width: 80%;
+    background: rgba( 255, 255, 255, 0.25 );
+    border: 1px solid white;
 }
 
 .list{
