@@ -62,3 +62,17 @@ input{
     padding:10px;
     font-size: 15px;
 }
+
+.instruction{
+display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    color: white;
+    border: 5px solid white;
+}
+
+.list{
+    font-size: 20px;
+}

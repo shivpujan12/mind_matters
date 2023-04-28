@@ -43,16 +43,18 @@ function secpass() {
 var machine1_dialog = document.getElementById("machine1_dialog");
 var machine2_dialog = document.getElementById("machine2_dialog");
 var machine3_dialog = document.getElementById("machine3_dialog");
-
+var instruction_dialog = document.getElementById("instruction_dialog");
 // Get the button that opens the modal
 var machine1_btn = document.getElementById("machine1");
 var machine2_btn = document.getElementById("machine2");
 var machine3_btn = document.getElementById("machine3");
+var instruction_btn = document.getElementById("instruction");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 var span2 = document.getElementsByClassName("close")[1];
 var span3 = document.getElementsByClassName("close")[2];
+var span4 = document.getElementsByClassName("close")[3];
 
 // When the user clicks the button, open the modal
 machine1_btn.onclick = function() {
@@ -63,6 +65,9 @@ machine2_btn.onclick = function() {
 }
 machine3_btn.onclick = function() {
     machine3_dialog.style.display = "block";
+}
+instruction_btn.onclick = function() {
+    instruction_dialog.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -81,6 +86,9 @@ span3.onclick = function() {
     machine2_dialog.style.display = "none";
     machine3_dialog.style.display = "none";
 }
+span4.onclick = function() {
+    instruction_dialog.style.display = "none";
+}
 
 // When the user clicks anywhere outside the modal, close it
 window.onclick = function(event) {
@@ -90,6 +98,8 @@ window.onclick = function(event) {
         machine2_dialog.style.display = "none";
     }else if (event.target === machine3_dialog) {
         machine3_dialog.style.display = "none";
+    } else if(event.target === instruction_dialog){
+        instruction_dialog.style.display = "none";
     }
 }
 
