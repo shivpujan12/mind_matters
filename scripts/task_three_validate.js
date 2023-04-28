@@ -9,7 +9,7 @@ function validate() {
     checkQuestion5();
     console.log("Your score is: " + score);
     localStorage['score'] = score;
-
+    window.location = "../pages/final_page.html"
 }
 
 
