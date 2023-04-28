@@ -40,7 +40,8 @@ function secpass() {
     } else {
         clearInterval(countDown);
         countDiv.innerHTML = 'countdown done';
-        window.location = "../pages/task_three.html"
+        validate();
+        window.location = "../pages/final_page.html"
     }
 }
 var machine1_dialog = document.getElementById("machine1_dialog");

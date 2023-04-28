@@ -41,7 +41,8 @@ function secpass() {
         clearInterval(countDown);
 
         countDiv.innerHTML = 'countdown done';
-        window.location = "../pages/task_three.html"
+        validate();
+        window.location = "../pages/final_page.html"
         
     }
 }

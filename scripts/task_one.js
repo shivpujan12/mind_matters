@@ -2,7 +2,7 @@ var team_name = localStorage['team-name']
 document.getElementById("team-name").innerHTML =
     "<b>Team name:</b><br> " + team_name;
 
-var sec= 300*5,
+var sec= 5,
 countDiv= document.getElementById("timer"),
     secpass,
     countDown   = setInterval(function () {
@@ -36,7 +36,7 @@ function secpass() {
         clearInterval(countDown);
         countDiv.innerHTML = 'countdown done';
         validate();
-        window.location = "../pages/task_two.html"
+        window.location = "../pages/final_page.html"
     }
 }
 // Get the modal
