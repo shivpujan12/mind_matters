@@ -81,20 +81,9 @@ window.onclick = function(event) {
 document.getElementById("submit_key_machine1").onclick = ()=> {
     var text = document.getElementById("clue-text").innerText;
     var key = document.getElementById("key_hint_machine1").value;
-    if(key === "149"){
+    if(key === "32"){
         document.getElementById("clue-text").innerText =
-            "Charles Babbage, an English mechanical engineer and polymath, originated the concept" +
-            " of a programmable computer. Considered the \"father of the computer\", he conceptualized" +
-            " and invented the first mechanical computer in the early 19th century. After working on his" +
-            " revolutionary difference engine, designed to aid in navigational calculations, in 1833 he realized" +
-            " that a much more general design, an Analytical Engine, was possible. The input of programs and data" +
-            " was to be provided to the machine via punched cards," +
-            " a method being used at the time to direct mechanical looms such as the Jacquard loom." +
-            " For output, the machine would have a printer, a curve plotter and a bell." +
-            " The machine would also be able to punch numbers onto cards to be read in later." +
-            " The Engine incorporated an arithmetic logic unit, control flow in the form of conditional branching and loops, " +
-            "and integrated memory, making it the first design for a general-purpose computer" +
-            " that could be described in modern terms as Turing-complete"
+            "He is known as the father of modern computer  and in his name the highest prize of computer science is given. “Dynabook”, the first GUI  invented by an American company in the early 1970s. IC and high level language were introduced in this generation. It is a European country and Leopard 2 tank belong to it. GitHub and LinkedIn are both owned by the same company."
     } else {
         decryptMachine1();
     }
@@ -103,20 +92,7 @@ document.getElementById("submit_key_machine1").onclick = ()=> {
 
 document.getElementById("restore").onclick =()=> {
     document.getElementById("clue-text").innerText =
-        "Syakikg Wawwack, aa Kaciugy eksyaausai kacuakkk aao" +
-        " swiieacy, wkucuaacko cyk swasksc wg a skwckaeeawik " +
-        "swesyckk. Swaguokkko cyk \"gacykk wg cyk swesyckk\", " +
-        "yk swaskscyaiueko aao uaukacko cyk gukgc eksyaausai swesyckk " +
-        "ua cyk kakii 19cy skacyki. Agckk qwkmuac wa yug kkuwiycuwaaki ouggkkkask " +
-        "kacuak, okgucako cw auo ua aauucacuwaai saisyiacuwag, ua 1833 yk kkaiueko cyac " +
-        "a eysy ewkk ckakkai okguca, aa Aaaiicusai Kacuak, qag swgguwik. Cyk uasyc " +
-        "wg skwckaeg aao oaca qag cw wk skwuuoko cw cyk easyuak uua syasyko sakog, a" +
-        " ekcywo wkuac ygko ac cyk cuek cw oukksc eksyaausai iwweg gysy ag cyk Qasoyako" +
-        " iwwe. Gwk wycsyc, cyk easyuak qwyio yauk a skuackk, a sykuk siwcckk aao a wkii." +
-        " Cyk easyuak qwyio aigw wk awik cw syasy ayewkkg wacw sakog cw wk kkao ua iackk. " +
-        "Cyk Kacuak uaswkswkacko aa akucyekcus iwcus yauc, swackwi giwq ua cyk gwke wg " +
-        "swaoucuwaai wkaasyuac aao iwwsg, aao uackckacko ekewki, eamuac uc cyk gukgc okguca " +
-        "gwk a ckakkai-sykswgk swesyckk cyac swyio wk okgskuwko ua ewokka ckkeg ag Cykuac-swesikck"
+        "Nk oy qtuct gy znk lgznkx ul sujkxt iusvazkx  gtj ot noy tgsk znk nomnkyz vxofk ul iusvazkx yioktik oy mobkt. “Jetghuuq”, znk loxyz MAO  otbktzkj he gt Gskxoigt iusvgte ot znk kgxre 1970y. OI gtj nomn rkbkr rgtmagmk ckxk otzxujaikj ot znoy mktkxgzout. Oz oy g Kaxuvkgt iuatzxe gtj Rkuvgxj 2 zgtq hkrutm zu oz. MozNah gtj RotqkjOt gxk huzn uctkj he znk ygsk iusvgte."
 }
 
 function decryptMachine1() {
