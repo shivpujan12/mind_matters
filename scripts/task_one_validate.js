@@ -15,7 +15,7 @@ function checkQuestion1() {
     const data = document.querySelector('input[name="option_question_1"]:checked');
     if (data === null) {
         console.log("Not selected any option");
-    } else if (data.value === "Option 2") {
+    } else if (data.value === "Apple") {
         console.log("Correct Option");
         score = score + 2;
     } else {
@@ -29,7 +29,7 @@ function checkQuestion2() {
     const data = document.querySelector('input[name="option_question_2"]:checked');
     if (data === null) {
         console.log("Not selected any option");
-    } else if (data.value === "Option 2") {
+    } else if (data.value === "con") {
         console.log("Correct Option");
         score = score + 2;
     } else {
@@ -43,7 +43,7 @@ function checkQuestion3() {
     const data = document.querySelector('input[name="option_question_3"]:checked');
     if (data === null) {
         console.log("Not selected any option");
-    } else if (data.value === "Option 2") {
+    } else if (data.value === "Six Degrees") {
         console.log("Correct Option");
         score = score + 2;
     } else {
@@ -57,7 +57,7 @@ function checkQuestion4() {
     const data = document.querySelector('input[name="option_question_4"]:checked');
     if (data === null) {
         console.log("Not selected any option");
-    } else if (data.value === "Option 2") {
+    } else if (data.value === "1971") {
         console.log("Correct Option");
         score = score + 2;
     } else {
@@ -70,7 +70,7 @@ function checkQuestion5() {
     const data = document.querySelector('input[name="option_question_5"]:checked');
     if (data === null) {
         console.log("Not selected any option");
-    } else if (data.value === "Option 2") {
+    } else if (data.value === "Raj Reddy") {
         console.log("Correct Option");
         score = score + 2;
     } else {
