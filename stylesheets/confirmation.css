@@ -1,0 +1,50 @@
+body{
+    background-image: url("../assets/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg");
+    background-size: cover;
+    color:white;
+}
+h1{
+    font-family: 'DynaPuff', cursive;
+    font-size: 50px;
+}
+h3{
+    font-family: 'DynaPuff', cursive;
+    font-size: 25px;
+}
+.out_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    margin-top: 50px;
+    background: rgba( 66, 66, 66, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba(5, 5, 12, 0.37);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    padding:30px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.proceed{
+    margin-left: 10px;
+}
+.entry{
+    display: flex;
+    justify-content: center;
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    font-size: 25px;
+    color:white;
+}

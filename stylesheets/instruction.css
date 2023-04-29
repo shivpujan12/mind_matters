@@ -1,0 +1,80 @@
+body{
+    background-image: url("../assets/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg");
+    background-size: cover;
+    color:black;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    font-family: 'DynaPuff', cursive;
+    color:white;
+    font-size:50px;
+    align-items: center;
+}
+h2{
+    font-family: 'DynaPuff', cursive;
+}
+p{
+    font-family: 'Cabin', sans-serif;
+}
+.task:hover{
+    transform: translate(5px,5px);
+    box-shadow: 0px 0px white;
+}
+.Form{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(33, 20, 20, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    padding:30px;
+}
+.entry{
+    height:40px;
+    width:500px;
+    border:5px solid  #282c34;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.outer_cont{
+    opacity:1;
+    margin-top: 50px;
+    min-height: 85vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-sbmt{
+    display:flex;
+    justify-content: flex-end;
+}
+.submit{
+    font-family: 'DynaPuff', cursive;
+    font-size: 16px;
+}
+input{
+    font-family: 'DynaPuff', cursive;
+    padding:10px;
+    font-size: 15px;
+}
+
+.instruction{
+display:flex;
+    margin-left: 120px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    color: white;
+    width: 80%;
+    background: rgba( 255, 255, 255, 0.25 );
+    border: 1px solid white;
+}
+
+.list{
+    font-size: 20px;
+}
