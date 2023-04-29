@@ -82,20 +82,10 @@ window.onclick = function(event) {
 document.getElementById("submit_key_machine1").onclick = ()=> {
     var text = document.getElementById("clue-text").innerText;
     var key = document.getElementById("key_hint_machine1").value;
-    if(key === "149"){
-        document.getElementById("clue-text").innerText =
-            "Charles Babbage, an English mechanical engineer and polymath, originated the concept" +
-            " of a programmable computer. Considered the \"father of the computer\", he conceptualized" +
-            " and invented the first mechanical computer in the early 19th century. After working on his" +
-            " revolutionary difference engine, designed to aid in navigational calculations, in 1833 he realized" +
-            " that a much more general design, an Analytical Engine, was possible. The input of programs and data" +
-            " was to be provided to the machine via punched cards," +
-            " a method being used at the time to direct mechanical looms such as the Jacquard loom." +
-            " For output, the machine would have a printer, a curve plotter and a bell." +
-            " The machine would also be able to punch numbers onto cards to be read in later." +
-            " The Engine incorporated an arithmetic logic unit, control flow in the form of conditional branching and loops, " +
-            "and integrated memory, making it the first design for a general-purpose computer" +
-            " that could be described in modern terms as Turing-complete"
+    if(key === "212"){
+        document.getElementById("clue-text").innerText = "The history of programming languages dates back to the mid-1800s when Charles Babbage first proposed the idea of a programmable computer.\n" +
+            "It took a hundred years until first high level programming languages like FORTRAN (short for FORmula TRANslation) were developed in 1950s. This was followed by LISP, COBOL and BASIC in quick succession, before Bell Labs developed the famous C and C++ languages. Many modern languages like Rust are heavily influenced by C. After that, the number of programming languages exploded, with there being 700 programming languages being actively used today.\n" +
+            "With the recent rise of AI, the use of languages like R and python (which weren't originally created for AI) are sure to witness a further rise in popularity.\n"
     } else {
         decryptMachine1();
     }
