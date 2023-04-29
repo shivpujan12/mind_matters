@@ -14,7 +14,7 @@ const createWindow = () => {
     //     }
     // })
 
-    const win = new BrowserWindow({show: false});
+    const win = new BrowserWindow({show: false,autoHideMenuBar: true});
     win.maximize();
     win.show();
 

@@ -2,7 +2,7 @@ var team_name = localStorage['team-name']
 document.getElementById("team-name").innerHTML =
     "<b>Team name:</b><br> " + team_name;
 
-var sec= 300*5,
+var sec= 600*3,
 countDiv= document.getElementById("timer"),
     secpass,
     countDown   = setInterval(function () {
@@ -106,7 +106,7 @@ window.onclick = function(event) {
 document.getElementById("submit_key_machine1").onclick = ()=> {
     var text = document.getElementById("clue-text").innerText;
     var key = document.getElementById("key_hint_machine1").value;
-    if(key === "149"){
+    if(key === "17"){
         document.getElementById("clue-text").innerText =
             "Ray Tomlinson developed Email in the 20th century, when year (YY) is added to its next consecutive prime number, it becomes square of 12. Folder can’t be made with a name whose volume is one-third of the volume of a cylinder. The Indian, who  won the highest award, born in Andhra Pradesh, his name reflects as he is an aristocrat but he belongs to a farmer family. I am a fruit, rooted from the garage and now I am a big tech giant. It is twice  the worst torture inflicted by Indian police."
     } else {
